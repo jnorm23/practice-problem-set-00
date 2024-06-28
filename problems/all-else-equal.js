@@ -9,7 +9,26 @@ return null. Use the calculateSum function as a helper function.
 */
 
 // Your code here 
+function calculateSum(nums) {
+  let sum = 0;
+  for (let i = 0; i < nums.length; i++) {
+    sum += nums[i];
+  }
+  return sum;
+}
 
+function allElseEqual(numbers) {
+  let sum = calculateSum(numbers);
+  let halfSum = sum / 2;
+
+  for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] === halfSum) {
+      return numbers[i];
+    }
+  }
+
+  return null;
+}
 // console.log(allElseEqual([2, 4, 3, 10, 1]));  // 10
 // console.log(allElseEqual([6, 3, 5, -9, 1]));  // 3
 // console.log(allElseEqual([1, 2, 3, 4]));      // null
