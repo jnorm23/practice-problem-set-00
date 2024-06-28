@@ -6,7 +6,26 @@ it should return false.
 */
 
 // Your code here 
+function bothStringsIncluded(sentence, string1, string2) {
+    let foundString1 = false;
+    let foundString2 = false;
 
+    const words = sentence.split(' ');
+
+    for (let word of words) {
+        if (word.includes(string1)) {
+            foundString1 = true;
+        }
+        if (word.includes(string2)) {
+            foundString2 = true;
+        }
+        if (foundString1 && foundString2) {
+            return true;
+        }
+    }
+
+    return false;
+}
 // console.log(bothStringsIncluded("how now brown cow?", "panther", "cow"));  //=> false
 // console.log(bothStringsIncluded("Dance party!", "Dance", "party"));        //=> true
 // console.log(bothStringsIncluded("Question?", "tion", "?"));                //=> true
