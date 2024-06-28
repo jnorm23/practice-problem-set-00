@@ -4,7 +4,9 @@ of times that the same letter repeats twice in a row.
 */
 
 // Your code here 
-
+function doubleLetterCount() {
+    
+}
 // console.log(doubleLetterCount("the jeep rolled down the hill"));  // 3
 // console.log(doubleLetterCount("bootcamp")); // 1
 

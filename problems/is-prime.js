@@ -10,7 +10,9 @@ and 2 (10 / 5 = 2 and 10 / 1 = 10).
 */
 
 // Your code here 
-
+function isPrime(num){
+    
+}
 // console.log(isPrime(2)); // => true
 // console.log(isPrime(10)); // => false
 // console.log(isPrime(11)); // => true

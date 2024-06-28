@@ -8,7 +8,13 @@ from the original array. Use the isPrime function as a helper function.
 */
 
 // Your code here 
+function isPrime() {
 
+}
+
+function choosePrimes() {
+  
+}
 // console.log(choosePrimes([36, 48, 9, 13, 19]));   // [ 13, 19 ]
 // console.log(choosePrimes([5, 6, 4, 11, 2017]));   // [ 5, 11, 2017 ]
 // console.log(choosePrimes([1, 2, 3, 5, 7, 9]));    // [ 2, 3, 5, 7 ]

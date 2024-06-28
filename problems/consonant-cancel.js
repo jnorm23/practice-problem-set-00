@@ -8,7 +8,13 @@ function as a helper function.
 */
 
 // Your code here 
+function firstVowel() {
 
+}
+
+function consonantCancel() {
+  
+}
 // console.log(consonantCancel("down the rabbit hole"));               // "own e abbit ole"
 // console.log(consonantCancel("writing code is challenging"));        // "iting ode is allenging"
 // console.log(consonantCancel("practice makes perfect"));             // "actice akes erfect"

@@ -5,7 +5,9 @@ should return false otherwise.
 */
 
 // Your code here 
-
+function compareLengths() {
+    
+}
 
 // let a1 = ['a', 'b', 'c'];
 // let a2 = ['w', 'x', 'y'];

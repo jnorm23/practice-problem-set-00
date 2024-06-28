@@ -5,7 +5,9 @@ divide both arguments.
 */
 
 // Your code here 
-
+function commonFactors() {
+    
+}
 
 // console.log(commonFactors(4, 8));              // [1, 2, 4]
 // console.log(commonFactors(12, 24));            // [1, 2, 3, 4, 6, 12]

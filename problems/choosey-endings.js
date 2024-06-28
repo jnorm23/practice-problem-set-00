@@ -6,7 +6,9 @@ empty array.
 */
 
 // Your code here 
-
+function chooseyEndings() {
+    
+}
 
 // console.log(chooseyEndings(['family', 'hound', 'catalyst','fly', 'timidly', 'bond'], 'ly'));
 // //=> [ 'family', 'fly', 'timidly' ]
